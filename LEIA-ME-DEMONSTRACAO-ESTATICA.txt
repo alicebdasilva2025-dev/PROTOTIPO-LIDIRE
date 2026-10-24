@@ -1,0 +1,17 @@
+LiDire MVP-1.0M — Demonstração estática com interface original
+
+Esta versão preserva a interface e a navegação do arquivo MVP-1.0I enviado como base.
+Foi preparada como pacote estático separado para demonstração pública.
+
+IMPORTANTE:
+- Não inclui index.js nem wrangler.toml e, portanto, não é um Worker.
+- Não conecta ao D1 de produção.
+- O login é ignorado na demonstração.
+- As rotas de API são bloqueadas pelo código do navegador.
+- O acesso à localização/GPS está desativado no modo de demonstração.
+- As alterações são guardadas numa chave de armazenamento local separada, apenas neste navegador.
+- Recursos que dependem do servidor, integrações externas, sincronização, IA remota, clima/rotas e ações de conta não funcionarão nesta edição.
+- Não use dados reais.
+- Para publicar, envie os arquivos desta pasta para hospedagem estática, mantendo index.html na raiz.
+
+Este pacote não foi publicado nem testado funcionalmente no Cloudflare. Antes da divulgação, testar no ambiente hospedado, especialmente navegação entre módulos e operações de criação/edição.
